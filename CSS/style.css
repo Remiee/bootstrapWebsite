@@ -1,0 +1,114 @@
+body {
+   padding-top: 60px;
+}
+h3, h4 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: rgb(31, 30, 34);
+  color: white;
+  padding: 0.5%;
+  padding-right: 2%;
+  font-size: 1.2em;
+  border: 0;
+}
+.navbar-brand {
+  float: left;
+  min-height: 50px;
+  padding: 2px 30px 0px;
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+  color: white;
+  background-color: rgb(31, 30, 34);
+}
+.navbar-inverse .navbar-nav li a {
+  color: rgb(212, 212, 212);
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-40%);
+  text-transform: uppercase;
+  text-shadow: 2px 2px black;
+}
+.btn {
+  font-size: 18px;
+  padding: 12px;
+  color: white;
+  background: rgb(31, 30, 34);
+  border: 1px solid white;
+}
+.btn:hover {
+  font-size: 18px;
+  color: rgb(31, 30, 34);
+  background: white;
+  border: 1px solid rgb(31, 30, 34);
+}
+.container {
+  margin: 1% auto;
+  padding: 4%;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  margin: 1% auto;
+  padding: 8%;
+}
+.carousel-inner {
+  max-height: 95vh;
+}
+#dark {
+  background-color: rgb(31, 30, 34);
+  color: white;
+  padding: 3% 10%;
+}
+#dark img {
+  padding-bottom: 5%;
+}
+#dark h3 {
+  padding-bottom: 5%;
+}
+#dark button {
+  padding: 5px 50px;
+}
+#dark button:hover {
+  background-color: rgb(44, 43, 48);
+  color: white;
+  border: 1px solid white;
+}
+#icon {
+  padding: 2% 1% 5%;
+  max-width: 250px;
+  margin: 1% auto;
+}
+.fa {
+  color: white;
+  padding-top: 1%;
+  padding-right: 2%;
+  font-size: 22px;
+}
+.fa:hover {
+  color: rgb(210, 210, 210);
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .carousel-caption button{
+    display: none;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+  #icon {
+    max-width: 180px;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+}

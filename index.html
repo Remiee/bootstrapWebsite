@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mountain travel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+  <div id="home">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home"><img src="img/logo2.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar" id="spy-scroll-id">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#information">Information</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/alps.jpg">
+        <div class="carousel-caption">
+          <h1>traveling – it leaves you speechless, then turns you into a storyteller</h1>
+          <br>
+          <button type="button" class="btn btn-default">Get Started</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/snow.png">
+        <div class="carousel-caption">
+          <h1>better to see something once than hear about it a thousand times</h1>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/adventure.jpg">
+        <div class="carousel-caption">
+          <h1>life is short and the world is wide</h1>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" area-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" area-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container text-center" id="aboutus">
+    <h2>About us</h2><br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat congue libero non rutrum. Nullam
+      convallis orci eget sapien varius, at gravida metus imperdiet. Fusce dignissim porta quam non tristique. Vivamus
+      hendrerit placerat ornare. Cras iaculis posuere eros, nec lacinia arcu varius at. Cras ultrices sem id elit
+      ornare vestibulum. Nullam malesuada ut nibh ac accumsan. Quisque pretium mauris dolor, eget molestie nisi blandit
+      et.Quisque molestie ipsum at nisl dictum. Nunc imperdiet sem vitae lacus efficitur, ut fermentum orci posuere.</p>
+    <p>Nulla interdum ultrices purus, eu accumsan odio mattis id. Curabitur finibus ligula tortor, id consequat purus
+      lacinia vitae. Maecenas malesuada porta posuere. Suspendisse non turpis at tellus varius molestie ac eget lectus.
+      Duis suscipit non felis at interdum. Suspendisse eu pretium mauris. Praesent pulvinar pretium nisi fringilla
+      porta. Aliquam commodo sed justo quis vulputate. Curabitur quis molestie massa.</p>
+    <p>Duis vel arcu quis lorem fringilla tincidunt. Duis rhoncus molestie neque, vel varius urna. Nunc dignissim
+      tellus scelerisque diam tincidunt dapibus. Nulla interdum libero sit amet lectus posuere, ut tempor erat
+      convallis. Suspendisse augue ligula, congue nec est sed, sagittis venenatis diam. Duis varius arcu posuere magna
+      finibus mollis. Pellentesque scelerisque fringilla urna sit amet faucibus. Class aptent taciti sociosqu ad litora
+      torquent per conubia nostra, per inceptos himenaeos. Phasellus euismod rhoncus dolor, ac sodales nisi congue
+      vitae. Vivamus vel leo non libero convallis sodales. Nullam lectus ipsum, fermentum in vestibulum blandit,
+      tincidunt vitae lacus. Sed nec odio id nisl laoreet posuere. Suspendisse ut dolor et risus feugiat commodo eget
+      eu augue. Etiam euismod nunc nec mollis mattis. Vivamus vestibulum velit id laoreet vehicula. Sed interdum
+      posuere efficitur.</p>
+  </div>
+
+  <div class="container text-center" id="information">
+    <h2>What you gain from traveling</h2>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/first.png" id="icon">
+        <h4>ADVENTURE</h4>
+      </div>
+      <div class="col-md-4">
+        <img src="img/second.png" id="icon">
+        <h4>EXPERIENCE</h4>
+      </div>
+      <div class="col-md-4">
+        <img src="img/third.png" id="icon">
+        <h4>EXPLORATION</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Cool things about traveling...</h3><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat congue libero non rutrum. Nullam
+          convallis orci eget sapien varius, at gravida metus imperdiet. Fusce dignissim porta quam non tristique.
+          Vivamus hendrerit placerat ornare. Cras iaculis posuere eros, nec lacinia arcu varius at. Cras ultrices sem
+          id elit ornare vestibulum. Nullam malesuada ut nibh ac accumsan. Quisque pretium mauris dolor, eget molestie
+          nisi blandit et.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat congue libero non rutrum. Nullam
+          convallis orci eget sapien varius, at gravida metus imperdiet. Fusce dignissim porta quam non tristique.
+          Vivamus hendrerit placerat ornare. Cras iaculis posuere eros, nec lacinia arcu varius at.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/map.jpg" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <h4>Challenging yourself</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat congue libero non rutrum. Nullam
+          convallis orci eget sapien varius, at gravida metus imperdiet. Fusce dignissim porta quam non tristique.
+          Vivamus hendrerit placerat ornare. Cras iaculis posuere eros, nec lacinia arcu varius at.</p>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <img src="img/girl.jpg" id="icon" class="center-block">
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <h4>Expanding your perspective</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat congue libero non rutrum. Nullam
+          convallis orci eget sapien varius, at gravida metus imperdiet. Fusce dignissim porta quam non tristique.
+          Vivamus hendrerit placerat ornare. Cras iaculis posuere eros, nec lacinia arcu varius at.</p>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <img src="img/boy.jpg" id="icon" class="center-block">
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container-fluid" id="dark">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/logo2.png">
+          <h4>Our location</h4>
+          <p>55 Mountain Street, Bern, Switzerland</p>
+          <br>
+          <h4>Contact info</h4>
+          <p>+74 20 7946 0359</p>
+          <p>mountain@mountaintravel.com</p>
+          <br>
+          <h4>Connect</h4>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <br>
+        <div class="col-md-6">
+          <h3>CONTACT US</h3>
+          <div class="form-group mb-6">
+            <input type="text" class="form-control" placeholder="Enter your name">
+          </div>
+          <div class="form-group mb-6">
+            <input type="text" class="form-control" placeholder="Enter your e-mail address">
+          </div>
+          <div class="form-group mb-6">
+            <textarea class="form-control" rows="5" placeholder="Add your message"></textarea>
+          </div>
+          <div class="form-group mb-6">
+            <button class="btn btn-default" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
